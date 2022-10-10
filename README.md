@@ -1,6 +1,7 @@
 # Python Intro
-
+- python is a programming language
 ## Why Python
+- one of the easiest language to learn
 ### Python use cases
 #### Python set up with Pycharm
 ##### Python Variables

@@ -37,6 +37,7 @@ print(" what is your DOB? ")
 DOB = input()
 print(" are you a UK resident? ")
 UK_resident = input()
+```
 
 #### Git and Github
 - add changes to our Git-Hub repo that we made to local host

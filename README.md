@@ -137,11 +137,11 @@ print(a == b)
 ```python
 greeting = "Hello World!"
 print(greeting)
-print(greeting.isalpha())
-print(greeting.islower())
-print(greeting.startswith("H"))
-print(greeting.endswith("!"))
-print(greeting.isdigit())
+print(greeting.isalpha()) #only letters
+print(greeting.islower()) #only lowercase characters
+print(greeting.startswith("H")) #stars with [argument]
+print(greeting.endswith("!")) #ends with [argument]
+print(greeting.isdigit()) #only numbers
 ```
 ```python
 # String Slicing
@@ -153,7 +153,7 @@ print(greeting.isdigit())
 greeting = "Hello World!"
 print(greeting)
 # we have a builtin method that checks the len of the string
-print(len(greeting)) #
+print(len(greeting)) # length of string (or array)
 print(greeting[0:5])
 print(greeting[6:12])
 print(greeting[-12:-6])
@@ -168,10 +168,10 @@ print(len(white_space.strip())) # this will remove all the white spaces at the e
 #print(print(len(white_space)))
 
 Example_text = " adam here's sOme text with lOt's of text"
-print(Example_text.count("text"))
-print(Example_text.lower())
-print(Example_text.upper())
-print(Example_text.capitalize())
-print(Example_text.replace("with",","))
+print(Example_text.count("text"))  # counts the times [argument] appears in the string
+print(Example_text.lower())  # converts string to lowercase
+print(Example_text.upper()) # converts string to lowercase
+print(Example_text.capitalize()) # capitalises first letter
+print(Example_text.replace("with",",")) # replaces [argument1] with [argument2]
 
 ```

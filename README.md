@@ -5,6 +5,29 @@
 ### Python use cases
 #### Python set up with Pycharm
 ##### Python Variables
+### Types of data
+- Str - string (word)
+- Float - real number
+- Int - Integer (decimal)
+- Boolean - Yes or no (true or false)
+- List 
+
+### Github setup
+- generate ssh key
+- cd .ssh
+- ssh-keygen -t rsa -b 4096 -C "adamhamdi85@gmail.com"
+- copy public key (cat id_rsa.pub)
+- add another repository on Github
+- then create README.md file and connect it to the repository.
+
+- then put in variable for each one of the following and press enter,
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git status to see if its green then proceed
+- git branch -M main
+- git remote add origin "git@github.com:[username]/[repository].git"
+- git push -u origin main
 
 -Env Testing print("hello world")
 

@@ -29,9 +29,6 @@
 # print("hello dear ")
 
 
-
-
-
 print("what is your first name? ")
 first_name = input()
 print(" what is your last name? ")
@@ -41,3 +38,11 @@ DOB = input()
 print(" are you a UK resident? ")
 UK_resident = input()
 
+#### Git and Github
+- add changes to our Git-Hub repo that we made to local host
+
+- `git add filename` or `git add .` means push everything from current location
+- `git commit -m "new markdown guide added"`
+- now let's send this new data to github
+- `git push -u origin main` 
+- `git status`

@@ -47,3 +47,5 @@ UK_resident = input()
 - now let's send this new data to github
 - `git push -u origin main` 
 - `git status`
+- add `.gitignore` then `add all dependencies in this file to ensure not pushed to github`
+- to pull changes from git-hub `git pull`

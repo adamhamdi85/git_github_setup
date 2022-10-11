@@ -121,6 +121,7 @@ collaborate (see also: git help workflows)
 - `==` true or false
 - `>=` greater than or equal
 - `<=` less than or equal
+- `!=` Not equal
 ```python
 a = 24
 b = 16

@@ -75,7 +75,7 @@ UK_resident = input()
 - to pull changes from git-hub `git pull`
 =======
 ### this change is done on github
-
+```
 These are common Git commands used in various situations:
 
 start a working area (see also: git help tutorial)
@@ -109,7 +109,7 @@ collaborate (see also: git help workflows)
    fetch     Download objects and refs from another repository
    pull      Fetch from and integrate with another repository or a local branch
    push      Update remote refs along with associated objects
-
+```
 
 
 ### Intro to Data types and Operators
@@ -132,4 +132,46 @@ print(a > b) # true
 print(a < b) # false
 print(a == b)
 ```
-- 
+
+
+```python
+greeting = "Hello World!"
+print(greeting)
+print(greeting.isalpha())
+print(greeting.islower())
+print(greeting.startswith("H"))
+print(greeting.endswith("!"))
+print(greeting.isdigit())
+```
+```python
+# String Slicing
+# string indexing - starts from 0
+# Hello World!
+# 01234567891011
+#            -2-1
+
+greeting = "Hello World!"
+print(greeting)
+# we have a builtin method that checks the len of the string
+print(len(greeting)) #
+print(greeting[0:5])
+print(greeting[6:12])
+print(greeting[-12:-6])
+print(greeting[-6:-1])
+
+# String methods are available
+# use var = string "asdfghhgfehgfds"
+white_space = "lot's of spaces at the end             "
+print(len(white_space))
+# strip() removes the white spaces at the end of the strip
+print(len(white_space.strip())) # this will remove all the white spaces at the end
+#print(print(len(white_space)))
+
+Example_text = " adam here's sOme text with lOt's of text"
+print(Example_text.count("text"))
+print(Example_text.lower())
+print(Example_text.upper())
+print(Example_text.capitalize())
+print(Example_text.replace("with",","))
+
+```

@@ -25,51 +25,77 @@
 # c = 10
 # d = 100
 # print(c%d)
+#
+#
+#
+#
+# # Boolean Builtin methods in Python - Boolean Methods
+# # - DRY not to repeat yourself print("")
+#
+# greeting = "Hello World!"
+# print(greeting)
+# print(greeting.isalpha())
+# print(greeting.islower())
+# print(greeting.startswith("H"))
+# print(greeting.endswith("!"))
+# print(greeting.isdigit())
+#
+# # String Slicing
+# # string indexing - starts from 0
+# # Hello World!
+# # 01234567891011
+# #            -2-1
+#
+# greeting = "Hello World!"
+# print(greeting)
+# # we have a builtin method that checks the len of the string
+# print(len(greeting)) #
+# print(greeting[0:5])
+# print(greeting[6:12])
+# print(greeting[-12:-6])
+# print(greeting[-6:-1])
+#
+# # String methods are available
+# # use var = string "asdfghhgfehgfds"
+# white_space = "lot's of spaces at the end             "
+# print(len(white_space))
+# # strip() removes the white spaces at the end of the strip
+# print(len(white_space.strip())) # this will remove all the white spaces at the end
+# #print(print(len(white_space)))
+
+# Example_text = " adam here's sOme text with lOt's of text"
+# print(Example_text.count("text"))
+# print(Example_text.lower())
+# print(Example_text.upper())
+# print(Example_text.capitalize())
+# print(Example_text.replace("with",","))
+
+# user data input
+first_name = "adam"
+last_name = "hamdi"
+salary = 40
+
+# print(first_name)
+# print(last_name)
+# print(first_name + " " + last_name + " " + str(salary))# because int change to str()
+
+# F-string
+print(f"Hello {first_name} {last_name}")
 
 
+#
+print("Good Morning, Please enter your First Name")
+first_name = input()
+#
+print ("Enter Last Name")
+last_name = input()
+#
+print("Enter DOB")
+DOB = input()
+
+print("Are you a Uk resident? Answer Yes or No")
+
+uk_resident = input()
 
 
-# Boolean Builtin methods in Python - Boolean Methods
-# - DRY not to repeat yourself print("")
-
-greeting = "Hello World!"
-print(greeting)
-print(greeting.isalpha())
-print(greeting.islower())
-print(greeting.startswith("H"))
-print(greeting.endswith("!"))
-print(greeting.isdigit())
-
-# String Slicing
-# string indexing - starts from 0
-# Hello World!
-# 01234567891011
-#            -2-1
-
-greeting = "Hello World!"
-print(greeting)
-# we have a builtin method that checks the len of the string
-print(len(greeting)) #
-print(greeting[0:5])
-print(greeting[6:12])
-print(greeting[-12:-6])
-print(greeting[-6:-1])
-
-# String methods are available
-# use var = string "asdfghhgfehgfds"
-white_space = "lot's of spaces at the end             "
-print(len(white_space))
-# strip() removes the white spaces at the end of the strip
-print(len(white_space.strip())) # this will remove all the white spaces at the end
-#print(print(len(white_space)))
-
-Example_text = " adam here's sOme text with lOt's of text"
-print(Example_text.count("text"))
-print(Example_text.lower())
-print(Example_text.upper())
-print(Example_text.capitalize())
-print(Example_text.replace("with",","))
-
-
-
-
+print(f'Hello   {first_name}  {last_name} {DOB} {uk_resident}')

@@ -218,7 +218,7 @@ print(Example_text.replace("with",",")) # replaces [argument1] with [argument2]
 
 ```
 ```python
-# user data input
+user data input
 first_name = "adam"
 last_name = "hamdi"
 salary = 40

@@ -176,7 +176,7 @@ print(type(essentials))
 # essentials [0] = "coffee"
 print(essentials)
 ```
-
+## Booleans
 ```python
 greeting = "Hello World!"
 print(greeting)
@@ -218,6 +218,7 @@ print(Example_text.capitalize()) # capitalises first letter
 print(Example_text.replace("with",",")) # replaces [argument1] with [argument2]
 
 ```
+## Concatenation and Casting
 ```python
 #user data input
 first_name = "adam"

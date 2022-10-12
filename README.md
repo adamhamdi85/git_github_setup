@@ -133,6 +133,7 @@ print(a > b) # true
 print(a < b) # false
 print(a == b)
 ```
+## Tuples, Lists and Dictionary
 ```python
 # Data Collections
 # Lists
@@ -185,12 +186,12 @@ print(greeting.startswith("H")) #stars with [argument]
 print(greeting.endswith("!")) #ends with [argument]
 print(greeting.isdigit()) #only numbers
 ```
-```python
 # String Slicing
-# string indexing - starts from 0
-# Hello World!
-# 01234567891011
-#            -2-1
+```python
+string indexing - starts from 0
+Hello World!
+01234567891011
+           -2-1
 
 greeting = "Hello World!"
 print(greeting)
@@ -218,16 +219,18 @@ print(Example_text.replace("with",",")) # replaces [argument1] with [argument2]
 
 ```
 ```python
-user data input
+#user data input
 first_name = "adam"
 last_name = "hamdi"
 salary = 40
 
-# print(first_name)
-# print(last_name)
-# print(first_name + " " + last_name + " " + str(salary))# because int change to str()
+print(first_name)
+print(last_name)
+print(first_name + " " + last_name + " " + str(salary))# because int change to str()
+```
 
 # F-string
+```
 print(f"Hello {first_name} {last_name}")
 
 
